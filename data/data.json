@@ -4,7 +4,7 @@
     "category_id": "1",
     "recipe": {
       "name": "Chicken Tikka Masala",
-      "image": "https://example.com/chicken-tikka-masala.jpg",
+      "image": "https://www.allchickenrecipes.com/wp-content/uploads/2018/09/Easy-Chicken-Tikka-Masala-Recipe.jpg",
       "description": "A classic Indian dish made with marinated chicken in a creamy tomato sauce.",
       "prep_time": "20 mins",
       "cook_time": "30 mins",
@@ -34,7 +34,7 @@
       ],
       "chef": {
         "name": "Sanjeev Kapoor",
-        "image": "https://example.com/sanjeev-kapoor.jpg",
+        "image": "https://thumbs.dreamstime.com/b/happy-african-american-man-showing-thumbs-up-gesture-satisfied-client-young-glasses-like-look-camera-smiling-male-student-165241106.jpg",
         "years_of_experience": 30,
         "number_of_recipes": 128,
         "likes": 42000
@@ -46,7 +46,7 @@
     "category_id": "2",
     "recipe": {
       "name": "Palak Paneer",
-      "image": "https://example.com/palak-paneer.jpg",
+      "image": "https://www.foodandwine.com/thmb/cf176bZ4Pe9bG3tDNJ-gjMs3NZU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/saag-paneer-FT-RECIPE0520-9d049e7557564c818ddd0d6391069d2a.jpg",
       "description": "A popular vegetarian dish made with spinach and paneer cheese in a creamy tomato-based sauce.",
       "prep_time": "10 mins",
       "cook_time": "20 mins",
