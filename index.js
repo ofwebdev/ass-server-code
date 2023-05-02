@@ -36,6 +36,24 @@ app.get("/country/:id", (req, res) => {
   res.send(findCategoryById);
 });
 
+app.get("/recipe", (req, res) => {
+  res.send(data);
+});
+
+app.get("/recipe/:id", (req, res) => {
+  const id = req.params.id;
+
+  const findRecipeById = data.find((recipe) => recipe._id === id);
+  if (!findRecipeById) {
+    return res.status(404).json({
+      status: "fail",
+      message: "Invalid ID parameter",
+    });
+  }
+
+  res.send(findRecipeById);
+});
+
 app.listen(port, () => {
   console.log(`Server run on ${port}`);
 });
