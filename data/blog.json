@@ -1,9 +1,8 @@
 [
     {
         "id": 1,
-        "image": "https://wire19.com/wp-content/uploads/2021/11/controlled2520and2520Uncontrolled2520components-1.png3Fwidth3D75026name3Dcontrolled2520and2520Uncontrolled2520components-1.png",
+        "image": "https://www.opcito.com/hubfs/Control%20%26%20Uncontrolled%20Components_Web.png",
         "title": "Understanding the Basics of Controlled and Uncontrolled Components in React",
-        "content": "A portfolio is an important business asset for every freelance graphic designer. A graphic designer web portfolio showcases…",
         "author": {
             "name": "Joly",
             "date": "March 10, 2023",
@@ -22,8 +21,7 @@
     {
         "id": 2,
         "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Y1RE_flJEuySBI-crC0RFg.jpeg",
-        "title": "The Best Grilled Cheese Sandwiches Ever",
-        "content": "There's nothing like a warm and gooey grilled cheese sandwich on a cold day. Here's how to make the best grilled cheese sandwiches ever!",
+        "title": "How to validate React props using PropTypes",
         "author": {
             "name": "Sara",
             "date": "February 28, 2023",
@@ -34,7 +32,7 @@
             "PropTypes is a built-in library in React that allows you to validate the props passed to a component. It helps catch bugs early by ensuring that the props are of the expected type and structure.",
             "Here's an example of how to use PropTypes to validate props in a functional component:",
             {
-                "img": ""
+                "img": "https://res.cloudinary.com/dbawkayfv/image/upload/v1683207869/props1_ln9c97.png"
             },
             "In this example, we import PropTypes and define the expected shape of the props using the propTypes property. The propTypes object has keys that correspond to the names of the props, and values that describe their expected type and whether they are required.",
             "In this case, we're expecting the title and description props to be strings, and we're marking them as required using the isRequired method. If either of these props is not provided or is of a different type, React will log a warning in the console.",
@@ -47,15 +45,14 @@
             "PropTypes.string: A string.",
             "You can also define custom PropTypes by creating a function that returns an error message if the prop is invalid. For example:",
             {
-                "img": ""
+                "img": "https://res.cloudinary.com/dbawkayfv/image/upload/v1683207870/props2_ikxxaw.png"
             }
         ]
     },
     {
         "id": 3,
-        "image": "https://www.simform.com/wp-content/uploads/2021/04/Node.js-vs.-Express.jpg",
+        "image": "https://procoders.tech/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/Express-JS-vs-Node-JS_-Why-its-Time-to-Migrate_-1.png.webp",
         "title": "The difference between nodejs and express js.",
-        "content": "Building an online business can be tough, but with the right strategy and tools, it's possible to succeed. Here's what you need to know.",
         "author": {
             "name": "Tom",
             "date": "January 20, 2023",
@@ -73,7 +70,6 @@
         "id": 4,
         "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--wTQSy21D--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fta83c3topbul6s34jau.png",
         "title": "What is a custom hook, and why will you create a custom hook?",
-        "content": "Working from home can be a challenge, especially when it comes to staying motivated. Here are 10 tips to help you stay on track and get things done.",
         "author": {
             "name": "Emily",
             "date": "December 5, 2022",
