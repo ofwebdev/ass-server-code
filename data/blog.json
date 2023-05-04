@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "image": "https://wire19.com/wp-content/uploads/2021/11/controlled2520and2520Uncontrolled2520components-1.png3Fwidth3D75026name3Dcontrolled2520and2520Uncontrolled2520components-1.png",
+        "title": "Understanding the Basics of Controlled and Uncontrolled Components in React",
+        "content": "A portfolio is an important business asset for every freelance graphic designer. A graphic designer web portfolio showcases…",
+        "author": {
+            "name": "Joly",
+            "date": "March 10, 2023",
+            "readingTime": "10 Mins",
+            "avatar": "https://secure.gravatar.com/avatar/c692cc3679757c325e033e4e38513bd3?s=192&d=mm&r=g"
+        },
+        "article": [
+            "In React, components can be classified as either controlled or uncontrolled based on how they handle their state.",
+            "A controlled component is a component that explicitly manages its own state and updates it based on user input. It receives its current state and any updates to it through props from its parent component. The parent component has complete control over the state of the controlled component and can change it at any time.",
+            "For example, consider an input field that takes user input and displays it. In a controlled component, the value of the input field is managed by its parent component. Any changes made to the input field are reflected in the parent component's state, and the input field is re-rendered with the new value.",
+            "On the other hand, an uncontrolled component manages its own state internally and does not rely on its parent component to manage it. The component keeps track of its own state using a ref or state hook. Changes to the component's state are not passed up to the parent component.",
+            "For example, an uncontrolled input field manages its own state internally and updates its value whenever the user types something in the field. The parent component is not aware of the input field's state and cannot control it directly.",
+            "Controlled components are generally preferred in React because they provide a clear and predictable data flow between components. However, uncontrolled components can be useful in situations where the parent component does not need to know about the component's state, or where the state of the component is not critical to the application's overall state."
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Y1RE_flJEuySBI-crC0RFg.jpeg",
+        "title": "The Best Grilled Cheese Sandwiches Ever",
+        "content": "There's nothing like a warm and gooey grilled cheese sandwich on a cold day. Here's how to make the best grilled cheese sandwiches ever!",
+        "author": {
+            "name": "Sara",
+            "date": "February 28, 2023",
+            "readingTime": "5 Mins",
+            "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+        },
+        "article": [
+            "PropTypes is a built-in library in React that allows you to validate the props passed to a component. It helps catch bugs early by ensuring that the props are of the expected type and structure.",
+            "Here's an example of how to use PropTypes to validate props in a functional component:",
+            {
+                "img": ""
+            },
+            "In this example, we import PropTypes and define the expected shape of the props using the propTypes property. The propTypes object has keys that correspond to the names of the props, and values that describe their expected type and whether they are required.",
+            "In this case, we're expecting the title and description props to be strings, and we're marking them as required using the isRequired method. If either of these props is not provided or is of a different type, React will log a warning in the console.",
+            "Here are some other commonly used PropTypes:",
+            "PropTypes.array: An array of values of a specific type.",
+            "PropTypes.bool: A boolean value.",
+            "PropTypes.func: A function.",
+            "PropTypes.number: A number.",
+            "PropTypes.object: An object.",
+            "PropTypes.string: A string.",
+            "You can also define custom PropTypes by creating a function that returns an error message if the prop is invalid. For example:",
+            {
+                "img": ""
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://www.simform.com/wp-content/uploads/2021/04/Node.js-vs.-Express.jpg",
+        "title": "The difference between nodejs and express js.",
+        "content": "Building an online business can be tough, but with the right strategy and tools, it's possible to succeed. Here's what you need to know.",
+        "author": {
+            "name": "Tom",
+            "date": "January 20, 2023",
+            "readingTime": "15 Mins",
+            "avatar": "https://randomuser.me/api/portraits/men/44.jpg"
+        },
+        "article": [
+            "Node.js and Express.js are both popular technologies in the JavaScript ecosystem, but they serve different purposes.",
+            "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows you to run JavaScript on the server-side, which makes it possible to build scalable and efficient server-side applications. Node.js provides a lot of built-in functionality for I/O operations, networking, and concurrency, which makes it a popular choice for building web applications, APIs, and microservices.",
+            "On the other hand, Express.js is a lightweight and flexible framework for building web applications and APIs with Node.js. Express.js provides a set of tools and utilities for handling HTTP requests, routing, middleware, and templating. It's built on top of Node.js and provides an easier and more structured way to build web applications.",
+            "In other words, Node.js is the underlying technology that provides the runtime environment for JavaScript on the server-side, whereas Express.js is a framework that is built on top of Node.js and provides additional functionality for building web applications."
+        ]
+    },
+    {
+        "id": 4,
+        "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--wTQSy21D--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fta83c3topbul6s34jau.png",
+        "title": "What is a custom hook, and why will you create a custom hook?",
+        "content": "Working from home can be a challenge, especially when it comes to staying motivated. Here are 10 tips to help you stay on track and get things done.",
+        "author": {
+            "name": "Emily",
+            "date": "December 5, 2022",
+            "readingTime": "8 Mins",
+            "avatar": "https://randomuser.me/api/portraits/women/13.jpg"
+        },
+        "article": [
+            "In React, a custom hook is a reusable function that encapsulates certain logic or behavior that can be used by multiple components. Custom hooks are typically defined with the prefix use (e.g. useFetch, useAuth, etc.), and they follow the same rules as regular React hooks.",
+            "Custom hooks allow you to extract complex logic and state management from your components, which can make your code more modular, reusable, and easier to test. By creating a custom hook, you can abstract away the implementation details of a certain behavior or functionality and provide a simple, declarative API that can be used by other components",
+            "For example, you might create a custom hook that handles user authentication, network requests, or local storage operations. By defining these behaviors in a separate hook, you can reduce code duplication and make your components more focused on rendering the UI, rather than handling business logic.",
+            "Custom hooks are a powerful way to create abstractions in your React codebase, and they can help you write cleaner, more maintainable code."
+        ]
+    }
+]
